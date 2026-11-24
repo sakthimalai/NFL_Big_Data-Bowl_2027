@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# NFL Competition Raw Datasets & Intermediate Large Parquets
+# (Proprietary to NFL / Kaggle Big Data Bowl — download from Kaggle competition page)
+data/*
+!data/README.md
+processed/*.parquet
+!processed/model_results.json
+
+# Temporary Build Artifacts & OS / IDE Configs
+writeup/_build_*.html
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
